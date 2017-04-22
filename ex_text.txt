@@ -1,0 +1,5 @@
+text example
+
+We found latitudinal gradients, in both taxon and guild-based communities. The pattern could be driven by a environmental gradient (traits of plant), or space/distance; each correspond to a distinct ecological process.
+
+We expect the relative importance of process vary with scale, taxon- and guild-based communities could also have different results (find reference).
