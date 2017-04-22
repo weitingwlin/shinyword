@@ -1,1 +1,11 @@
-" We are grateful to... for field assistance. We thank ... for support with permits and logistics at each field site. The members of the ... labs and three anonymous reviewers provided invaluable feedback and greatly improved the analysis and presentation of the manuscript."
+Deploying bundle: 799685 for application: 174445 ...
+Waiting for task: 377663478
+  building: Parsing manifest
+  building: Building image: 791367
+  building: Installing system dependencies
+  building: Installing packages
+  building: Installing files
+  building: Pushing image: 791367
+  deploying: Starting instances
+  rollforward: Activating new instances
+  terminating: Stopping old instances
