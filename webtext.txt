@@ -1,1 +1,196 @@
-" We are grateful to... for field assistance. We thank ... for support with permits and logistics at each field site. The members of the ... labs and three anonymous reviewers provided invaluable feedback and greatly improved the analysis and presentation of the manuscript."
+
+R version 3.3.1 (2016-06-21) -- "Bug in Your Hair"
+Copyright (C) 2016 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin13.4.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+During startup - Warning messages:
+1: Setting LC_CTYPE failed, using "C" 
+2: Setting LC_COLLATE failed, using "C" 
+3: Setting LC_TIME failed, using "C" 
+4: Setting LC_MESSAGES failed, using "C" 
+5: Setting LC_MONETARY failed, using "C" 
+> setwd("~/Dropbox/DataCoding/HackHouston")
+> rm(list = list("v", "terms"))
+Error in rm(list = list("v", "terms")) : invalid first argument
+> rm(list = ("v", "terms"))
+Error: unexpected ',' in "rm(list = ("v","
+> ls()
+character(0)
+> a <-1
+> b<- 2
+> ls()
+[1] "a" "b"
+> rm(list = c("v" "terms"))
+Error: unexpected string constant in "rm(list = c("v" "terms""
+> rm(list = c("v", "terms"))
+Warning messages:
+1: In rm(list = c("v", "terms")) : object 'v' not found
+2: In rm(list = c("v", "terms")) : object 'terms' not found
+> library(shiny)
+> runApp()
+Warning: package 'tm' was built under R version 3.3.2
+Loading required package: NLP
+Warning: package 'NLP' was built under R version 3.3.2
+Loading required package: RColorBrewer
+
+Listening on http://127.0.0.1:7488
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in readLines(sprintf("https://raw.githubusercontent.com/weitingwlin/shinyword/master/%s.txt",  :
+  incomplete final line found on 'https://raw.githubusercontent.com/weitingwlin/shinyword/master/ex_text.txt'
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+
+> runApp()
+
+Listening on http://127.0.0.1:7488
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in readLines(sprintf("https://raw.githubusercontent.com/weitingwlin/shinyword/master/%s.txt",  :
+  incomplete final line found on 'https://raw.githubusercontent.com/weitingwlin/shinyword/master/ex_text.txt'
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+
+> ls()
+[1] "a"              "b"              "books"          "getTermMatrix1"
+> runApp()
+
+Listening on http://127.0.0.1:7488
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in readLines(sprintf("https://raw.githubusercontent.com/weitingwlin/shinyword/master/%s.txt",  :
+  incomplete final line found on 'https://raw.githubusercontent.com/weitingwlin/shinyword/master/ex_text.txt'
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in readLines(sprintf("https://raw.githubusercontent.com/weitingwlin/shinyword/master/%s.txt",  :
+  incomplete final line found on 'https://raw.githubusercontent.com/weitingwlin/shinyword/master/ex_text.txt'
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+
+> runApp()
+
+Listening on http://127.0.0.1:7488
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in readLines(sprintf("https://raw.githubusercontent.com/weitingwlin/shinyword/master/%s.txt",  :
+  incomplete final line found on 'https://raw.githubusercontent.com/weitingwlin/shinyword/master/ex_text.txt'
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+
+> runApp()
+
+Listening on http://127.0.0.1:7488
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in readLines(sprintf("https://raw.githubusercontent.com/weitingwlin/shinyword/master/%s.txt",  :
+  incomplete final line found on 'https://raw.githubusercontent.com/weitingwlin/shinyword/master/ex_text.txt'
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in readLines(sprintf("https://raw.githubusercontent.com/weitingwlin/shinyword/master/%s.txt",  :
+  incomplete final line found on 'https://raw.githubusercontent.com/weitingwlin/shinyword/master/ex_text.txt'
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in readLines(sprintf("https://raw.githubusercontent.com/weitingwlin/shinyword/master/%s.txt",  :
+  incomplete final line found on 'https://raw.githubusercontent.com/weitingwlin/shinyword/master/ex_text.txt'
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+
+> runApp()
+
+Listening on http://127.0.0.1:7488
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in readLines(sprintf("https://raw.githubusercontent.com/weitingwlin/shinyword/master/%s.txt",  :
+  incomplete final line found on 'https://raw.githubusercontent.com/weitingwlin/shinyword/master/ex_text.txt'
+Warning in wordcloud(names(v), v, scale = c(4, 0.5), min.freq = input$freq,  :
+  guildbased could not be fit on page. It will not be plotted.
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+
+> runApp()
+
+Listening on http://127.0.0.1:7488
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in readLines(sprintf("https://raw.githubusercontent.com/weitingwlin/shinyword/master/%s.txt",  :
+  incomplete final line found on 'https://raw.githubusercontent.com/weitingwlin/shinyword/master/ex_text.txt'
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+
+> runApp()
+
+Listening on http://127.0.0.1:7488
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in readLines(sprintf("https://raw.githubusercontent.com/weitingwlin/shinyword/master/%s.txt",  :
+  incomplete final line found on 'https://raw.githubusercontent.com/weitingwlin/shinyword/master/ex_text.txt'
+Warning in wordcloud(names(v), v, scale = c(4, 0.5), min.freq = input$freq,  :
+  guildbased could not be fit on page. It will not be plotted.
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in readLines(sprintf("https://raw.githubusercontent.com/weitingwlin/shinyword/master/%s.txt",  :
+  incomplete final line found on 'https://raw.githubusercontent.com/weitingwlin/shinyword/master/ex_text.txt'
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+
+> runApp()
+
+Listening on http://127.0.0.1:7488
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in readLines(sprintf("https://raw.githubusercontent.com/weitingwlin/shinyword/master/%s.txt",  :
+  incomplete final line found on 'https://raw.githubusercontent.com/weitingwlin/shinyword/master/ex_text.txt'
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in readLines(sprintf("https://raw.githubusercontent.com/weitingwlin/shinyword/master/%s.txt",  :
+  incomplete final line found on 'https://raw.githubusercontent.com/weitingwlin/shinyword/master/ex_text.txt'
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
