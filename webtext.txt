@@ -1,1 +1,9 @@
-" We are grateful to... for field assistance. We thank ... for support with permits and logistics at each field site. The members of the ... labs and three anonymous reviewers provided invaluable feedback and greatly improved the analysis and presentation of the manuscript."
+Listening on http://127.0.0.1:7488
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in readLines(sprintf("https://raw.githubusercontent.com/weitingwlin/shinyword/master/%s.txt",  :
+  incomplete final line found on 'https://raw.githubusercontent.com/weitingwlin/shinyword/master/ex_text.txt'
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
+Warning in rm(list = ("getTermMatrix")) :
+  object 'getTermMatrix' not found
