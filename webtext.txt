@@ -1,12 +1,1 @@
-Uploading bundle for application: 174445...DONE
-Deploying bundle: 799807 for application: 174445 ...
-Waiting for task: 377725607
-  building: Parsing manifest
-  building: Installing system dependencies
-  building: Fetching packages
-  building: Installing packages
-  building: Installing files
-  building: Pushing image: 791486
-  deploying: Starting instances
-  terminating: Stopping old instances
-Application successfully deployed to https://winio.shinyapps.io/hackhouston/
+" We are grateful to... for field assistance. We thank ... for support with permits and logistics at each field site. The members of the ... labs and three anonymous reviewers provided invaluable feedback and greatly improved the analysis and presentation of the manuscript."
